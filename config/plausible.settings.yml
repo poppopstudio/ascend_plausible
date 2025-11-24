@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: 7ITcwwShhS7SG3SJdIqRQkzXEcEPNejdEnbeDVDeDY0
 script:
   domain: null
   api: ''
