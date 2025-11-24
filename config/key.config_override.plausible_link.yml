@@ -1,0 +1,14 @@
+uuid: f3a51ffe-6eb5-4969-b051-943b2e3751f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.plausible_link
+    - plausible.settings
+id: plausible_link
+label: 'Plausible link'
+config_type: system.simple
+config_prefix: ''
+config_name: plausible.settings
+config_item: dashboard.shared_link
+key_id: plausible_link

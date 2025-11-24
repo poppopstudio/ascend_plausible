@@ -1,0 +1,14 @@
+uuid: 1247abe6-4a03-4e83-a9a2-7fa8c9b3e320
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.plausible_script
+    - plausible.settings
+id: plausible_script
+label: 'Plausible script'
+config_type: system.simple
+config_prefix: ''
+config_name: plausible.settings
+config_item: script.src
+key_id: plausible_script

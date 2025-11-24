@@ -1,0 +1,18 @@
+_core:
+  default_config_hash: 7ITcwwShhS7SG3SJdIqRQkzXEcEPNejdEnbeDVDeDY0
+script:
+  domain: null
+  api: ''
+  src: null
+dashboard:
+  shared_link: null
+visibility:
+  enable: true
+  admin_route_mode: 0
+  request_path_mode: 0
+  request_path_pages: ''
+  user_role_roles: {  }
+  user_role_mode: 0
+events:
+  403: false
+  404: false

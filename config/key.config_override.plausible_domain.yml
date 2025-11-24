@@ -1,0 +1,14 @@
+uuid: a4f3180c-f9e0-4122-a26f-a4a63b2c073d
+langcode: en
+status: true
+dependencies:
+  config:
+    - key.key.plausible_domain
+    - plausible.settings
+id: plausible_domain
+label: 'Plausible domain'
+config_type: system.simple
+config_prefix: ''
+config_name: plausible.settings
+config_item: script.domain
+key_id: plausible_domain

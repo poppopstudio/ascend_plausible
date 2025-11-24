@@ -1,0 +1,17 @@
+{
+    "name": "poppopstudio/ascend_plausible",
+    "description": "Ascend project Plausible analytics installer",
+    "type": "drupal-recipe",
+    "authors": [
+        {
+            "name": "NikLP",
+            "homepage": "https://github.com/poppopstudio/ascend_plausible",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/core": "^10.5",
+        "drupal/plausible": "^2.1",
+        "drupal/key": "^1.20"
+    }
+}

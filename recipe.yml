@@ -1,0 +1,6 @@
+name: 'Ascend Plausible install'
+description: 'Ascend project Plausible analytics installer'
+type: 'Site'
+install:
+  - plausible
+  - key
