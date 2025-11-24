@@ -1,16 +1,24 @@
 script:
-  domain: null
+  domain: ''
   api: ''
-  src: null
+  src: ''
 dashboard:
-  shared_link: null
+  shared_link: ''
 visibility:
   enable: true
-  admin_route_mode: 0
+  admin_route_mode: 1
   request_path_mode: 0
   request_path_pages: ''
-  user_role_roles: {  }
-  user_role_mode: 0
+  user_role_roles:
+    anonymous: anonymous
+    authenticated: '0'
+    content_editor: '0'
+    administrator: '0'
+    site_manager: '0'
+    user_manager: '0'
+    resource_manager: '0'
+    resource_creator: '0'
+  user_role_mode: 1
 events:
   403: true
   404: true
