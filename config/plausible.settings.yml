@@ -12,5 +12,5 @@ visibility:
   user_role_roles: {  }
   user_role_mode: 0
 events:
-  403: false
-  404: false
+  403: true
+  404: true
